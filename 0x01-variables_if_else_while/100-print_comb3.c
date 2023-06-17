@@ -30,7 +30,7 @@ int main(void)
 		}
 		digit1++;
 	}
-	putchat('\n');
+	putchar('\n');
 
 	return (0);
 }

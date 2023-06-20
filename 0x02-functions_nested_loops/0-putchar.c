@@ -1,8 +1,20 @@
-#ifndef main
-#define main
+#define 'main.h'
 #include <stdio.h>
+#include <string.h>
 
-int _putchar(char c);
+/**
+ * main - program mrint _putchar output
+ *
+ * return: 0 (success)
+*/
+int main(void)
+{
+	char str[] = "_putchar";
+	int i;
 
+	for (i = 0; i < strlen(str); i++)
+		putchar(str[i]);
+	_putchar('\n');
 
-#endif
+	return (0);
+}

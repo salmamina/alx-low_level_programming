@@ -5,6 +5,8 @@
 /**
  * main - program mrint _putchar output
  *
+ * Description: print _putchar
+ *
  * return: 0 (success)
 */
 int main(void)

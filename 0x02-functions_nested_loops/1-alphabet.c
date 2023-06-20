@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * main - print alphabet in lowecase
+ *
+ * Return: 0 (success)
+*/
+
+int main(void)
+{
+	int ch;
+
+	for (ch = 'a'; ch = 'z'; ch++)
+		_putchar(ch);
+	_putchar('\n');
+}

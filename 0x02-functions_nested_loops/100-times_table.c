@@ -35,9 +35,9 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(prod / 100 + 48);
-					r = prod - 100;
+					r = prod - (prod / 100) * 100;
 					_putchar(r / 10 + 48);
-					_putchar(((r / 10) % 10) + 48);
+					_putchar(((r % 10) + 48);
 				}
 			}
 			_putchar('\n');

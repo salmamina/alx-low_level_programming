@@ -8,13 +8,13 @@
 
 void times_table(void)
 {
-	int i, j;
+	int i, j, prod;
 
 	for (i = 0; i < 10; i++)
 	{
-		_putchar(0 + 48)
+		_putchar(0 + 48);
 
-		for (j = 0; j < 10; j++)
+		for (j = 1; j < 10; j++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -24,7 +24,7 @@ void times_table(void)
 			else
 			{
 				_putchar(prod / 10 + 48);
-				_putchar(prod % 10 + 48);
+			_putchar(prod % 10 + 48);
 			}
 		}
 

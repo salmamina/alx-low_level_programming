@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * print_square - print a square
+ * @size: size of square
+ * Description: Can only use _putchar to print. Use '#' to prin:wq
+
+	while (y < size)
+	{
+		x = 0;
+		while (x < size)
+		{
+			_putchar('#');
+			x++;
+		}
+		_putchar('\n');
+		y++;
+	}
+}

@@ -1,16 +1,18 @@
 #include "main.h"
 
 /**
- * *_strcmp - compare two strings.
+ * _strcmp - compare two strings.
  *
  * @s1: first input
  * @s2: second input
  * Return: pointer to the resulting string
 */
+
 int _strcmp(char *s1, char *s2)
 {
-	int i, j;
+	int i, equal;
 
+	equal = 0;
 	i = 0;
 
 	while (s1[i])

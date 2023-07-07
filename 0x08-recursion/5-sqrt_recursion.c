@@ -7,6 +7,8 @@
  *  square root
 */
 
+
+int halp(int n, int i);
 int _sqrt_recursion(int n)
 {
 	return (halp(n, 1));
@@ -19,15 +21,15 @@ int _sqrt_recursion(int n)
  * Return: square root if natural square root, or -1 if none found
 */
 
-int halp(int c, int i)
+int halp(int n, int i)
 {
 	int square;
 
 	square = i * i;
-	if (square == c)
+	if (square == n)
 		return (i);
-	else if (square < c)
-		return (halp(c, i + 1));
+	else if (square < n)
+		return (halp(n, i + 1));
 	else
 		return (-1);
 }

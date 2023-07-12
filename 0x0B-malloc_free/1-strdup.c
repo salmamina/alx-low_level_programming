@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strdup - return pointer to newly allocated memory
+ * _strdup - function thatreturn pointer to newly allocated memory
  *
  * @str: input
  * Return: pointer of char

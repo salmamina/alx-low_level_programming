@@ -5,10 +5,10 @@
  * @array: array of element
  * @size: size of array:
  * @cmp: function compare
- * Return: -1 if no element, 0 otherwise
-*/
+ * Return: index integer
+i*/
 
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
 

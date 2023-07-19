@@ -6,7 +6,7 @@
  * @size: size of array:
  * @cmp: function compare
  * Return: index integer
-i*/
+*/
 
 int int_index(int *array, int size, int (*cmp)(int))
 {

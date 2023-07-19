@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - execute function on each elemnt of array
+ * int_index - search for integer
  * @array: array of element
  * @size: size of array:
- * @cmp: function pointer
+ * @cmp: function compare
  * Return: -1 if no element, 0 otherwise
 */
 
